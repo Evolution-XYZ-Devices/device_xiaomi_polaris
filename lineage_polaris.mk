@@ -16,12 +16,8 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi
 
-PRODUCT_SYSTEM_NAME := polaris
-
-BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODGMIFA:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="polaris-user 8.0.0 OPR1.170623.032 V9.5.19.0.ODGMIFA release-keys" \
-    TARGET_PRODUCT="polaris"
+    BuildDesc="polaris-user 8.0.0 OPR1.170623.032 V9.5.19.0.ODGMIFA release-keys" \
+    BuildFingerprint=Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODGMIFA:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
